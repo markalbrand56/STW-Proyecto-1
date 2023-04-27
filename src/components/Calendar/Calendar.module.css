@@ -77,9 +77,8 @@
 
     height: 60px;
 
-    background-color: #000000;
     opacity: 1;
-    background: repeating-linear-gradient( -45deg, #38383F, #38383F 2.5px, #000000 2.5px, #000000 12.5px );
+    background: #000000 repeating-linear-gradient(-45deg, #38383F, #38383F 2.5px, #000000 2.5px, #000000 12.5px);
 }
 
 .CountdownDetail{

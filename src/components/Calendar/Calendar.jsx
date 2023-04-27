@@ -11,7 +11,10 @@ function Calendar() {
                     <h1>FREE PRACTICE 1 COUNTDOWN</h1>
                 </div>
                 <div className={styles.Location}>
-                    <img src="src/assets/Flag_of_Austria.svg.png" alt="Flag of Austria"/>
+                    <img
+                        src="src/assets/Flag_of_Austria.svg.png"
+                        alt="Flag of Austria"
+                    />
                     <h1>SPIELBERG, AUSTRIA</h1>
                 </div>
             </div>
@@ -29,7 +32,9 @@ function Calendar() {
                     <span className={styles.CountdownTime}>00</span>
                 </div>
                 <div className={styles.CountdownDetail}>
-                    <span className={styles.CountdownTitleSeconds}>SECONDS</span>
+                    <span className={styles.CountdownTitleSeconds}>
+                        SECONDS
+                    </span>
                     <span className={styles.CountdownTimeSeconds}>00</span>
                 </div>
             </div>
