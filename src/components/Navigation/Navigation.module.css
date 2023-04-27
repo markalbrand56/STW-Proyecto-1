@@ -14,6 +14,7 @@
 .Navigation ul{
     padding: 0.5em;
     margin-right: 1em;
+    font-size: 15px;
 }
 
 .Navigation ul:hover {
@@ -21,9 +22,9 @@
 }
 
 .Navigation img {
-    max-height: 20px;
+    max-height: 23px;
 
-    margin-left: 8em;
-    margin-right: 20em;
+    margin-left: 18em;
+    margin-right: 5em;
 }
 

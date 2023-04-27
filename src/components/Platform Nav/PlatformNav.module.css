@@ -5,14 +5,14 @@
     align-items: center;
 
     width: 100%;
-    margin-left: 8em;
+    margin-left: 20em;
 
     background-color: white;
     font-weight: bold;
+    font-size: small;
 }
 
 .PlatformNav ul{
-    padding: 0.5em;
 }
 
 .PlatformNav ul:hover {
