@@ -29,9 +29,8 @@
 
 .Dates h3{
     background-color: cyan;
-    padding-right: 2em;
-    padding-left: 2em;
     margin-right: 1em;
+    padding: 0.3em 2em;
 }
 
 .Dates h2 {
