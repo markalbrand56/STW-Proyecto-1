@@ -1,0 +1,20 @@
+.PlatformNav{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+
+    width: 100%;
+    margin-left: 8em;
+
+    background-color: white;
+    font-weight: bold;
+}
+
+.PlatformNav ul{
+    padding: 0.5em;
+}
+
+.PlatformNav ul:hover {
+    cursor: pointer;
+}

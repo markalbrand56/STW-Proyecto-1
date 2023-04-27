@@ -1,0 +1,29 @@
+.Navigation{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+
+    width: 100%;
+    background-color: black;
+
+    font-weight: bold;
+    color : white;
+}
+
+.Navigation ul{
+    padding: 0.5em;
+    margin-right: 1em;
+}
+
+.Navigation ul:hover {
+    cursor: pointer;
+}
+
+.Navigation img {
+    max-height: 20px;
+
+    margin-left: 8em;
+    margin-right: 20em;
+}
+
