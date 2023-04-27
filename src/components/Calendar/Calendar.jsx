@@ -29,8 +29,8 @@ function Calendar() {
                     <span className={styles.CountdownTime}>00</span>
                 </div>
                 <div className={styles.CountdownDetail}>
-                    <span className={styles.CountdownTitle}>SECONDS</span>
-                    <span className={styles.CountdownTime}>00</span>
+                    <span className={styles.CountdownTitleSeconds}>SECONDS</span>
+                    <span className={styles.CountdownTimeSeconds}>00</span>
                 </div>
             </div>
         </div>

@@ -8,13 +8,12 @@
     box-sizing: border-box;
     overflow: hidden;
 
-    background-color: purple;
+    background-color: #15151E;
 }
 
 .Round {
     display: flex;
     flex-direction: column;
-    padding: 0.5em;
 }
 
 .Dates {
@@ -75,10 +74,13 @@
     font-size: 10px;
 
     margin-left: 4em;
-    background-color: black;
     padding: 2em 2em 4em 2em;
 
-    height: 100%;
+    height: 60px;
+
+    background-color: #000000;
+    opacity: 1;
+    background: repeating-linear-gradient( -45deg, #38383F, #38383F 2.5px, #000000 2.5px, #000000 12.5px );
 }
 
 .CountdownDetail{
@@ -86,13 +88,13 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    gap: 5px;
 
-    width: 90px;
+    width: 70px;
 
     margin-top: 1em;
-    margin-right: 2em;
+    margin-right: 0.5em;
 
-    background-color: white;
     clip-path: polygon(100% 0, 100% 76%, 90% 100%, 0 100%, 0 0);
 
 }
@@ -102,6 +104,16 @@
 
     padding-right: 1.5em;
     padding-left: 1.5em;
+
+    display: flex;
+    justify-content: center;
+    align-self: center;
+
+    background-color: white;
+
+    width: calc(100% - 3em);
+
+
 }
 
 .CountdownTime {
@@ -109,5 +121,43 @@
     font-weight: bold;
     color: black;
 
+    display: flex;
+    justify-content: center;
+    align-self: center;
 
+    background-color: white;
+
+    width: 100%;
+}
+
+.CountdownTitleSeconds {
+    font-size: small;
+    color : white;
+
+    padding-right: 1.5em;
+    padding-left: 1.5em;
+
+    display: flex;
+    justify-content: center;
+    align-self: center;
+
+    background-color: #38383F;
+
+    width: calc(100% - 3em);
+
+
+}
+
+.CountdownTimeSeconds {
+    font-size: xx-large;
+    font-weight: bold;
+
+    display: flex;
+    justify-content: center;
+    align-self: center;
+
+    background-color: #38383F;
+    color: white;
+
+    width: 100%;
 }
