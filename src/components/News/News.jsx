@@ -5,7 +5,7 @@ function News() {
     return (
         <div className={styles.News}>
             <div className={styles.NewsMainItem}>
-                <img src="" alt=""/>
+                <img src="src/assets/NewsMainImg.webp" alt=""/>
                 <h3>INTERVIEW</h3>
                 <h1>
                     Inaugural Round of F1 Academy Kicks Off at the Red Bull Ring
