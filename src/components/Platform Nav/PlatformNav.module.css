@@ -1,4 +1,4 @@
-.PlatformNav{
+.PlatformNav {
     display: flex;
     flex-direction: row;
     justify-content: left;
@@ -12,7 +12,7 @@
     font-size: small;
 }
 
-.PlatformNav ul{
+.PlatformNav ul {
 }
 
 .PlatformNav ul:hover {

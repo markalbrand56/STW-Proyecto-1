@@ -1,4 +1,4 @@
-.Navigation{
+.Navigation {
     display: flex;
     flex-direction: row;
     justify-content: left;
@@ -8,10 +8,10 @@
     background-color: black;
 
     font-weight: bold;
-    color : white;
+    color: white;
 }
 
-.Navigation ul{
+.Navigation ul {
     padding: 0.5em;
     margin-right: 1em;
     font-size: 15px;

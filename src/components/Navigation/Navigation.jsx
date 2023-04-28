@@ -14,7 +14,7 @@ const navText = {
 function Navigation() {
     return (
         <nav className={styles.Navigation}>
-            <img src={navText.logo} alt="F1&copy; Logo" />
+            <img src={navText.logo} alt="F1&copy; Logo"/>
             <ul>{navText.latestNews}</ul>
             <ul>{navText.teams}</ul>
             <ul>{navText.standings}</ul>

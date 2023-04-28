@@ -5,7 +5,7 @@ function News() {
     return (
         <div className={styles.News}>
             <div className={styles.NewsMainItem}>
-                <img src="src/assets/NewsMainImg.webp" alt=""/>
+                <img src="src/assets/NewsMainImg.webp" alt="" />
                 <h3>INTERVIEW</h3>
                 <h1>
                     Inaugural Round of F1 Academy Kicks Off at the Red Bull Ring
@@ -20,18 +20,16 @@ function News() {
                     </h1>
                 </div>
                 <div className={styles.NewsSecondaryItem}>
-                    <img src="" alt=""/>
+                    <img src="" alt="" />
                     <h3>INTERVIEW</h3>
                     <h1>
                         Day 2 of Pre-Season testing completed at Circuit Paul Ricard
                     </h1>
                 </div>
                 <div className={styles.NewsSecondaryItem}>
-                    <img src="" alt=""/>
+                    <img src="" alt="" />
                     <h3>INTERVIEW</h3>
-                    <h1>
-                        Day 1 of testing completed in Le Castellet
-                    </h1>
+                    <h1>Day 1 of testing completed in Le Castellet</h1>
                 </div>
             </div>
         </div>

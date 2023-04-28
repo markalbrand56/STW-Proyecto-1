@@ -27,18 +27,18 @@
     margin-left: 28em;
 }
 
-.Dates h3{
+.Dates h3 {
     background-color: cyan;
     margin-right: 1em;
     padding: 0.3em 2em;
 }
 
 .Dates h2 {
-    color : white;
+    color: white;
 }
 
 .Dates h1 {
-    color : white;
+    color: white;
     font-size: small;
     margin-left: 45em;
 }
@@ -81,7 +81,7 @@
     background: #000000 repeating-linear-gradient(-45deg, #38383F, #38383F 2.5px, #000000 2.5px, #000000 12.5px);
 }
 
-.CountdownDetail{
+.CountdownDetail {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -130,7 +130,7 @@
 
 .CountdownTitleSeconds {
     font-size: small;
-    color : white;
+    color: white;
 
     padding-right: 1.5em;
     padding-left: 1.5em;
