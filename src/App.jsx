@@ -6,7 +6,6 @@ import Calendar from "./components/Calendar/Calendar"
 import News from "./components/News/News"
 
 function App() {
-
     const news = {
         main: {
             img: "src/assets/NewsMainImg.webp",
