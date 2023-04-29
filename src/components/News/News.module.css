@@ -7,6 +7,8 @@
     margin: 4em auto;
     padding: 0 20px;
     box-sizing: border-box;
+
+    border: 1px dashed red;
 }
 
 .NewsMainItem {
@@ -18,6 +20,9 @@
     margin: 0 auto;
     padding: 0 20px;
     box-sizing: border-box;
+
+    border: 1px dashed red;
+
 }
 
 .NewsMainItem img {
@@ -56,4 +61,12 @@
     margin-left: 1em;
 
     color: #be117e;
+}
+
+.NewsSecondary {
+    border: 1px dashed red;
+}
+
+.NewsSecondaryItem {
+    border: 1px dashed red;
 }
