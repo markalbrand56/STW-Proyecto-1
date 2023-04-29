@@ -1,4 +1,5 @@
 import React from "react"
+import "./App.css"
 import PlatformNav from "./components/Platform Nav/PlatformNav"
 import Navigation from "./components/Navigation/Navigation"
 import Calendar from "./components/Calendar/Calendar"

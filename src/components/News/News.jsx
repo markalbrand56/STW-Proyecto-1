@@ -13,18 +13,24 @@ function News({ news }) {
             <div className={styles.NewsSecondary}>
                 <div className={styles.NewsSecondaryItem}>
                     <img src={news.secondary1.img} alt="" />
-                    <h3>{news.secondary1.category}</h3>
-                    <h1>{news.secondary1.title}</h1>
+                    <div className={styles.NewsSecondaryItemDetails}>
+                        <h3>{news.secondary1.category}</h3>
+                        <h1>{news.secondary1.title}</h1>
+                    </div>
                 </div>
                 <div className={styles.NewsSecondaryItem}>
                     <img src={news.secondary2.img} alt="" />
-                    <h3>{news.secondary2.category}</h3>
-                    <h1>{news.secondary2.title}</h1>
+                    <div className={styles.NewsSecondaryItemDetails}>
+                        <h3>{news.secondary2.category}</h3>
+                        <h1>{news.secondary2.title}</h1>
+                    </div>
                 </div>
                 <div className={styles.NewsSecondaryItem}>
                     <img src={news.secondary3.img} alt="" />
-                    <h3>{news.secondary3.category}</h3>
-                    <h1>{news.secondary3.title}</h1>
+                    <div className={styles.NewsSecondaryItemDetails}>
+                        <h3>{news.secondary3.category}</h3>
+                        <h1>{news.secondary3.title}</h1>
+                    </div>
                 </div>
             </div>
         </div>
