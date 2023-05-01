@@ -5,6 +5,7 @@ import Navigation from "./components/Navigation/Navigation"
 import Calendar from "./components/Calendar/Calendar"
 import News from "./components/News/News"
 import RoundDetails from "./components/RoundDetails/RoundDetails"
+import Cards from "./components/Cards/Cards"
 
 function App() {
     const news = {
@@ -65,6 +66,12 @@ function App() {
         }
     }
 
+    const cards = {
+        card1: "What is F1 academy?",
+        card2: "Meet the drivers and teams",
+        card3: "Latest news about F1 academy",
+    }
+
     return (
         <div className="App">
             <PlatformNav />
@@ -72,6 +79,7 @@ function App() {
             <Calendar />
             <News news={news} />
             <RoundDetails roundDetails={roundDetails} />
+            <Cards cards={cards} />
         </div>
     )
 }
