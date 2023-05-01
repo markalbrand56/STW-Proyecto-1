@@ -32,6 +32,14 @@ function News({ news }) {
                         <h1>{news.secondary3.title}</h1>
                     </div>
                 </div>
+                <div className={styles.MoreNews}>
+                    {/* TODO El span tiene una propiedad ::After que le da la forma de cortado */}
+                    <span />
+                    <a href="">
+                        Latest News
+                        <i>{">"}</i>
+                    </a>
+                </div>
             </div>
         </div>
     )
