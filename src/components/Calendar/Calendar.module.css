@@ -31,6 +31,7 @@
     background-color: cyan;
     margin-right: 1em;
     padding: 0.3em 2em;
+    clip-path: polygon(22% 0%, 100% 0%, 100% 99%, 0% 100%);
 }
 
 .Dates h2 {
