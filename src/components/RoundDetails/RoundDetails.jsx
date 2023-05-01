@@ -4,8 +4,28 @@ import styles from "./RoundDetails.module.css"
 
 function RoundDetails({ roundDetails }) {
     return (
-        <div className={styles.RoundDetails}></div>
-
+        <div className={styles.RoundDetails}>
+            <div className={styles.RoundDetailsDate}>
+                <h3>{roundDetails.round}</h3>
+                <h2>{roundDetails.dates}</h2>
+            </div>
+            <div className={styles.RoundDetailsWeekendStruct}>
+                <div className={styles.RoundDetailsWeekendStructLocation}>
+                    <div className={styles.Country}>
+                        <img
+                            src="src/assets/Flag_of_Austria.svg.png"
+                            alt="Flag of Austria"
+                        />
+                        <h3>{roundDetails.country}</h3>
+                    </div>
+                    <h1>{roundDetails.city}</h1>
+                    <a href="">
+                        Full round details
+                        <i>{" >"}</i>
+                    </a>
+                </div>
+            </div>
+        </div>
     )
 }
 
