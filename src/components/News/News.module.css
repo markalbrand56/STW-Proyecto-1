@@ -81,6 +81,10 @@
     clip-path: polygon(100% 0, 100% 76%, 90% 100%, 0 100%, 0 0);
 }
 
+.NewsSecondaryItem img:hover {
+    cursor: pointer;
+}
+
 .NewsSecondaryItemDetails {
     display: flex;
     flex-direction: column;
@@ -93,6 +97,10 @@
     -o-border-image: linear-gradient(to right, #09f4f9 0%, #be117e 100%) 1;
     border-image: -webkit-gradient(linear, left top, right top, from(#09f4f9), to(#be117e)) 1;
     border-image: linear-gradient(to right, #09f4f9 0%, #be117e 100%) 1;
+}
+
+.NewsSecondaryItemDetails:hover {
+    cursor: pointer;
 }
 
 .NewsSecondaryItemDetails h3 {
