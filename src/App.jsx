@@ -4,6 +4,7 @@ import PlatformNav from "./components/Platform Nav/PlatformNav"
 import Navigation from "./components/Navigation/Navigation"
 import Calendar from "./components/Calendar/Calendar"
 import News from "./components/News/News"
+import RoundDetails from "./components/RoundDetails/RoundDetails"
 
 function App() {
     const news = {
@@ -29,12 +30,48 @@ function App() {
         },
     }
 
+    const roundDetails = {
+        round: "Round 1",
+        dates: "27 - 28 April 2023",
+        country: "Austria",
+        city: "Spielberg",
+        fp1: {
+            day: "Friday",
+            time: "8:15 - 8:55",
+        },
+        fp2: {
+            day: "Friday",
+            time: "10:40 - 11:20",
+        },
+        q1: {
+            day: "Friday",
+            time: "15:10 - 15:25",
+        },
+        q2: {
+            day: "Friday",
+            time: "15:30 - 15:45",
+        },
+        r1: {
+            day: "Saturday",
+            time: "10:45 - 11:15",
+        },
+        r2: {
+            day: "Saturday",
+            time: "14:05 - 14:25",
+        },
+        r3: {
+            day: "Saturday",
+            time: "17:20 - 17:50",
+        }
+    }
+
     return (
         <div className="App">
             <PlatformNav />
             <Navigation />
             <Calendar />
             <News news={news} />
+            <RoundDetails roundDetails={roundDetails} />
         </div>
     )
 }
