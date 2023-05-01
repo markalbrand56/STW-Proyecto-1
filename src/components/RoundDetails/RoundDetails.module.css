@@ -5,11 +5,9 @@
     justify-content: center;
 
     width: 99%;
-    padding-bottom: 8em;
+    padding-bottom: 5em;
 
     background-color: #3b0824;
-
-    border: red 1px dashed;
 }
 
 .RoundDetailsDate {
@@ -18,7 +16,7 @@
     align-items: center;
     justify-content: start;
 
-    width: 60%;
+    width: 70%;
     height: 100%;
 
     border-bottom: 2px solid #009EE4;
@@ -29,11 +27,23 @@
     background-color: cyan;
     margin-right: 1em;
     padding: 0.3em 2em;
+
+    font-size: small;
+    clip-path: polygon(22% 0%, 100% 0%, 100% 99%, 0% 100%);
 }
 
 .RoundDetailsDate h2 {
     color: white;
     text-transform: uppercase;
+}
+
+.RoundDetailsCalendar{
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    justify-content: start;
+
+    width: 70%;
 }
 
 .RoundDetailsWeekendStruct {
@@ -42,7 +52,6 @@
     align-items: center;
     justify-content: start;
 
-    width: 60%;
     height: 100%;
 
     color: white;
@@ -55,7 +64,7 @@
     align-items: start;
     justify-content: center;
 
-    margin: 2em 5em 0 10em;
+    margin: 2em 0 0 6em;
 }
 
 .RoundDetailsWeekendStructLocation a {
@@ -80,6 +89,7 @@
     align-items: center;
     justify-content: start;
     color: white;
+
 }
 
 .Country img {
@@ -90,4 +100,91 @@
 
 .Country h3 {
     margin: 0;
+}
+
+.RoundDetailsSaturday {
+    color: white;
+
+    margin: 2em 5em 0 17em;
+
+    text-transform: uppercase;
+    font-size: 0.8rem;
+}
+
+.RoundDetailsSaturdayElement {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    align-items: center;
+    justify-content: start;
+
+    margin-bottom: 1em;
+}
+
+.RoundDetailsSaturdayElementTitle {
+    margin: 0;
+    text-align: start;
+    font-weight: bolder;
+}
+
+.RoundDetailsSaturdayElementDay {
+    margin: 0;
+    text-align: center;
+    font-weight: bolder;
+}
+
+.RoundDetailsSaturdayElement span {
+    margin: 0;
+    padding: 0 1em;
+    font-weight: bolder;
+
+    background-color: #be117e;
+    clip-path: polygon(9% 0%, 100% 0%, 100% 99%, 0% 100%);
+}
+
+.RoundDetailsSaturdayElementAnnotation {
+    margin: 0;
+    text-align: start;
+
+    font-size: 0.7rem;
+}
+
+.RoundDetailsSunday {
+    color: white;
+
+    margin-top: 3.5em;
+
+    text-transform: uppercase;
+    font-size: 0.8rem;
+}
+
+.RoundDetailsSundayElement {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    align-items: center;
+    justify-content: start;
+
+    margin-bottom: 1em;
+}
+
+.RoundDetailsSundayElementTitle {
+    margin: 0;
+    text-align: start;
+    font-weight: bolder;
+}
+
+.RoundDetailsSundayElementDay {
+    margin: 0;
+    text-align: center;
+    font-weight: bolder;
+}
+
+.RoundDetailsSundayElement span {
+    margin: 0;
+    padding: 0 1em;
+    font-weight: bolder;
+
+    background-color: #be117e;
+    clip-path: polygon(9% 0%, 100% 0%, 100% 99%, 0% 100%);
 }
