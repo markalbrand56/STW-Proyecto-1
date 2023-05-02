@@ -63,7 +63,9 @@ function RoundDetails({ roundDetails }) {
                         </p>
                         <span>{roundDetails.q2.time}</span>
                     </div>
-                    <div className={styles.RoundDetailsSaturdayElementAnnotation}>
+                    <div
+                        className={styles.RoundDetailsSaturdayElementAnnotation}
+                    >
                         <p>Times displayed are track times</p>
                     </div>
                 </div>

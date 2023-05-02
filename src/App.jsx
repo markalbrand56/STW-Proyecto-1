@@ -64,7 +64,7 @@ function App() {
         r3: {
             day: "Saturday",
             time: "17:20 - 17:50",
-        }
+        },
     }
 
     const cards = {
