@@ -27,12 +27,12 @@
     max-height: 23px;
 
     margin-left: 18em;
-    margin-right: 5em;
+    margin-right: 2em;
 
-    padding: 1.7em 1em;
+    padding: 1.7em 4em 1.7em 1em;
 
     background: linear-gradient(90deg, #09f4f9 0%, #be117e 100%);
-
+    clip-path: polygon(0 0, 100% 0, 80% 100%, 0% 100%);
 }
 
 .Links {

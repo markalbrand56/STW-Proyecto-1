@@ -15,7 +15,10 @@ function Calendar() {
                         src="src/assets/Flag_of_Austria.svg.png"
                         alt="Flag of Austria"
                     />
-                    <h1>SPIELBERG, AUSTRIA</h1>
+                    <h1>
+                        SPIELBERG, AUSTRIA
+                        <i>{" >>>"}</i>
+                    </h1>
                 </div>
             </div>
             <div className={styles.Countdown}>
