@@ -24,9 +24,42 @@ function Footer() {
                     </div>
                 </div>
                 <div className={styles.FooterDivider}>
-                    <hr className={styles.Divider}/>
+                    <hr className={styles.Divider} />
                 </div>
-                {/* <div className={styles.GlobalPartenrs}></div> */}
+                <div className={styles.GlobalPartners}>
+                    <p>Our partners</p>
+                    <div className={styles.Partners}>
+                        <div className={styles.PrimaryPartners}>
+                            <ul>
+                                <li>
+                                    <img
+                                        src="src/assets/pirelli.svg"
+                                        alt="Pirelli"
+                                    />
+                                </li>
+                            </ul>
+                        </div>
+                        <div className={styles.SecondaryPartners}>
+                            <ul>
+                                <li>
+                                    <img
+                                        src="src/assets/autotecnica-logo-74d1fcb76f487701ccfc4a8b5822d737.png"
+                                        alt=""
+                                    />
+                                </li>
+                                <li>
+                                    <img src="src/assets/fox.svg" alt="" />
+                                </li>
+                                <li>
+                                    <img
+                                        src="src/assets/tatuus-logo-7d63d64cfd8a64d1b82f5c210d94e20a.png"
+                                        alt=""
+                                    />
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
                 {/* <div className={styles.FooterBottom}></div> */}
             </div>
         </div>
