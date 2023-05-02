@@ -1,0 +1,98 @@
+.FooterContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    width: 100%;
+    height: 100%;
+
+    background-color: black;
+}
+
+.Footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    width: 71%;
+    margin: 0 auto;
+
+    color: white;
+}
+
+.FooterTop {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 1fr;
+
+    width: 100%;
+    margin-top: 0.5em;
+}
+
+.FooterTopLeft {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: start;
+
+    margin-left: 5px;
+}
+
+.FooterLinks {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: start;
+
+    padding: 0;
+
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-size: 0.8rem;
+    list-style: none;
+}
+
+.FooterLinks li {
+    margin-right: 2em;
+}
+
+.FooterTopRight {
+    display: flex;
+    justify-self: end;
+    flex-direction: row;
+    align-items: end;
+    justify-content: end;
+}
+
+.FooterSocialMedia {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    padding: 0;
+
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-size: 0.8rem;
+    list-style: none;
+}
+
+.SocialMediaIcon {
+    color: white;
+    width: 10px;
+    height: 10px;
+}
+
+.FooterDivider {
+    width: 100%;
+}
+
+.Divider {
+    width: 100%;
+    height: 3px;
+
+    background: #FFFFFF;
+}

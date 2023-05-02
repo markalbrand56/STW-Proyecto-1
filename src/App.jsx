@@ -6,6 +6,7 @@ import Calendar from "./components/Calendar/Calendar"
 import News from "./components/News/News"
 import RoundDetails from "./components/RoundDetails/RoundDetails"
 import Cards from "./components/Cards/Cards"
+import Footer from "./components/Footer/Footer"
 
 function App() {
     const news = {
@@ -80,6 +81,7 @@ function App() {
             <News news={news} />
             <RoundDetails roundDetails={roundDetails} />
             <Cards cards={cards} />
+            <Footer />
         </div>
     )
 }

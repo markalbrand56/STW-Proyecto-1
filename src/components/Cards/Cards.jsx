@@ -3,6 +3,7 @@ import PropTypes from "prop-types"
 import styles from "./Cards.module.css"
 
 function Cards({ cards }) {
+    // TODO Averiguar como colorear el clip path
     return (
         <div className={styles.Cards}>
             <div className={styles.Card}>
