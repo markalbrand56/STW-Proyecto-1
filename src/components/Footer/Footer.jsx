@@ -60,7 +60,17 @@ function Footer() {
                         </div>
                     </div>
                 </div>
-                {/* <div className={styles.FooterBottom}></div> */}
+                <div className={styles.FooterDivider}>
+                    <hr className={styles.Divider} />
+                </div>
+                <div className={styles.FooterBottom}>
+                    <div className={styles.FooterBottomLeft}>
+                        <img src="src/assets/fa_logo_footer-1992667600d4ff845995310220de58a8.png" alt=""/>
+                    </div>
+                    <div className={styles.FooterBottomRight}>
+                        <p>© 2023 Formula One Management Limited</p>
+                    </div>
+                </div>
             </div>
         </div>
     )
