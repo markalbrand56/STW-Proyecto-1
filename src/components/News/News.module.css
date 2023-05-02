@@ -133,6 +133,8 @@
     width: 100%;
     height: 10px;
     background: #be117e;
+
+    clip-path: polygon(0% 0%, 77% 0%, 73% 100%, 0% 100%);
 }
 
 .MoreNews a {
