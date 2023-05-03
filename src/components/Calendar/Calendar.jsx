@@ -2,7 +2,7 @@ import React from "react"
 import PropTypes from "prop-types"
 import styles from "./Calendar.module.css"
 
-function Calendar( {calendar} ) {
+function Calendar({ calendar }) {
     return (
         <div className={styles.Calendar}>
             <div className={styles.Round}>
