@@ -27,6 +27,6 @@
 
 ![Página Principal](https://github.com/markalbrand56/STW-Proyecto-1/blob/master/img/2023-04-27.png)
 
-![Página Principal 2](https://github.com/markalbrand56/STW-Proyecto-1/blob/master/img/2023-04-27%20(2).png)
+![Página Principal 2](https://github.com/markalbrand56/STW-Proyecto-1/blob/master/img/2023-04-27%20(1).png)
 
-![Página Principal 3](https://github.com/markalbrand56/STW-Proyecto-1/blob/master/img/2023-04-27%20(1).png)
+![Página Principal 3](https://github.com/markalbrand56/STW-Proyecto-1/blob/master/img/2023-04-27%20(2).png)
