@@ -1,22 +1,23 @@
 import React from "react"
+import PropTypes from "prop-types"
 import styles from "./Calendar.module.css"
 
-function Calendar() {
+function Calendar( {calendar} ) {
     return (
         <div className={styles.Calendar}>
             <div className={styles.Round}>
                 <div className={styles.Dates}>
-                    <h3>ROUND 1</h3>
-                    <h2>27-28 APRIL 2023</h2>
-                    <h1>FREE PRACTICE 1 COUNTDOWN</h1>
+                    <h3>{calendar.round}</h3>
+                    <div className={styles.DatesDesc}>
+                        <h2>{calendar.dates}</h2>
+                        <h4>{calendar.year}</h4>
+                    </div>
+                    <h1>{calendar.session}</h1>
                 </div>
                 <div className={styles.Location}>
-                    <img
-                        src="src/assets/Flag_of_Austria.svg.png"
-                        alt="Flag of Austria"
-                    />
+                    <img src={calendar.flag} alt="Country Flag" />
                     <h1>
-                        SPIELBERG, AUSTRIA
+                        {calendar.location}
                         <i>{" >>>"}</i>
                     </h1>
                 </div>
@@ -43,6 +44,19 @@ function Calendar() {
             </div>
         </div>
     )
+}
+
+const calendarShape = PropTypes.shape({
+    round: PropTypes.string.isRequired,
+    dates: PropTypes.string.isRequired,
+    year: PropTypes.string.isRequired,
+    location: PropTypes.string.isRequired,
+    flag: PropTypes.string.isRequired,
+    session: PropTypes.string.isRequired,
+})
+
+Calendar.propTypes = {
+    calendar: calendarShape.isRequired,
 }
 
 export default Calendar

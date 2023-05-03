@@ -9,6 +9,15 @@ import Cards from "./components/Cards/Cards"
 import Footer from "./components/Footer/Footer"
 
 function App() {
+    const calendar = {
+        round: "Round 1",
+        dates: "27-28 April",
+        year: "2023",
+        location: "Spielberg, Austria",
+        flag: "src/assets/Flag_of_Austria.svg.png",
+        session: "Free Practice 1 Countdown:",
+    }
+
     const news = {
         main: {
             img: "src/assets/NewsMainImg.webp",
@@ -77,7 +86,7 @@ function App() {
         <div className="App">
             <PlatformNav />
             <Navigation />
-            <Calendar />
+            <Calendar calendar={calendar} />
             <News news={news} />
             <RoundDetails roundDetails={roundDetails} />
             <Cards cards={cards} />
