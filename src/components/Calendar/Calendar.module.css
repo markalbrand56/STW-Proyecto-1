@@ -99,30 +99,27 @@
 }
 
 .CountdownTitle {
-    font-size: small;
-
-    padding-right: 1.5em;
-    padding-left: 1.5em;
-
     display: flex;
     justify-content: center;
     align-self: center;
 
-    background-color: white;
-
+    padding: 0.5em 1.5em;
     width: calc(100% - 3em);
 
+    font-size: 0.9rem;
 
+    background-color: white;
 }
 
 .CountdownTime {
-    font-size: xx-large;
-    font-weight: bold;
-    color: black;
-
     display: flex;
     justify-content: center;
     align-self: center;
+
+    font-size: 2.2rem;
+    font-weight: bolder;
+    color: black;
+
 
     background-color: white;
 
@@ -130,30 +127,26 @@
 }
 
 .CountdownTitleSeconds {
-    font-size: small;
-    color: white;
-
-    padding-right: 1.5em;
-    padding-left: 1.5em;
-
     display: flex;
     justify-content: center;
     align-self: center;
 
-    background-color: #38383F;
+    font-size: 0.9rem;
 
+    padding: 0.5em 1.5em;
     width: calc(100% - 3em);
 
-
+    color: white;
+    background-color: #38383F;
 }
 
 .CountdownTimeSeconds {
-    font-size: xx-large;
-    font-weight: bold;
-
     display: flex;
     justify-content: center;
     align-self: center;
+
+    font-size: 2.2rem;
+    font-weight: bolder;
 
     background-color: #38383F;
     color: white;
