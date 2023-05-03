@@ -78,6 +78,19 @@
     color: #be117e;
 }
 
+.NewsMainItem::before{
+    content: '';
+
+    position: absolute;
+    width: 369px;
+    height: 435px;
+    top: 251px;
+    left: 230px;
+
+    opacity: 1;
+    background: #ffffff repeating-linear-gradient(-45deg, #dadada, #dadada 2px, #ffffff 2px, #ffffff 10px);
+}
+
 .NewsSecondary {
     display: flex;
     flex-direction: column;
