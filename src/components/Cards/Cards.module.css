@@ -28,6 +28,7 @@
     flex-direction: column;
     align-items: start;
     justify-content: start;
+    position: relative;
 
     width: 400px;
     height: 200px;
@@ -40,6 +41,18 @@
 
     border-right: solid 2px #FFFFFF;
     border-bottom: solid 2px #FFFFFF;
+}
+
+.CardInner::after{
+    content: "";
+    position: absolute;
+    bottom: -3px;
+    right: -12px;
+    width: 40px;
+    height: 10px;
+    transform: rotate(-50deg);
+    /* background: red; */
+    border-top: 3px solid white;
 }
 
 .CardInner h2 {
