@@ -18,6 +18,7 @@
 
     width: 70%;
     height: 100%;
+    padding: 1em 0;
 
     border-bottom: 2px solid #009EE4;
     border-image: linear-gradient(to right, #09f4f9 0%, #be117e 100%) 1;
