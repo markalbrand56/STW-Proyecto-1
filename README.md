@@ -27,12 +27,15 @@
 - [ ]  (5 puntos) Por implementar PostCSS
 - [ ]  (50 puntos) Por implementar Server Side Rendering en su aplicación (sin utilizar ninguna librería adicional)
 
-# Página a replicar
-## [F1 Academy](https://www.f1academy.com/)
-### Screenshots de la página al momento de replicarla
+## Página a replicar
+### [F1 Academy](https://www.f1academy.com/)
+#### Screenshots de la página al momento de replicarla
 
 ![Página Principal](https://github.com/markalbrand56/STW-Proyecto-1/blob/master/img/2023-04-27.png)
 
 ![Página Principal 2](https://github.com/markalbrand56/STW-Proyecto-1/blob/master/img/2023-04-27%20(1).png)
 
 ![Página Principal 3](https://github.com/markalbrand56/STW-Proyecto-1/blob/master/img/2023-04-27%20(2).png)
+
+## Storybook
+![Evidencia Storybook](https://github.com/markalbrand56/STW-Proyecto-1/blob/master/img/sc_storybook.png)
