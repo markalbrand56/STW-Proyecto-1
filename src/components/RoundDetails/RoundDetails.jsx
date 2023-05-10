@@ -1,5 +1,6 @@
 import React from "react"
 import PropTypes from "prop-types"
+import AustriaFlag from "../../assets/Flag_of_Austria.svg.png"
 import styles from "./RoundDetails.module.css"
 
 function RoundDetails({ roundDetails }) {
@@ -13,10 +14,7 @@ function RoundDetails({ roundDetails }) {
                 <div className={styles.RoundDetailsWeekendStruct}>
                     <div className={styles.RoundDetailsWeekendStructLocation}>
                         <div className={styles.Country}>
-                            <img
-                                src="src/assets/Flag_of_Austria.svg.png"
-                                alt="Flag of Austria"
-                            />
+                            <img src={AustriaFlag} alt="Flag of Austria" />
                             <h3>{roundDetails.country}</h3>
                         </div>
                         <h1>{roundDetails.city}</h1>
