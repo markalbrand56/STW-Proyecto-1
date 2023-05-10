@@ -29,5 +29,5 @@ export const Austria = {
             flag: "src/assets/Flag_of_Austria.svg.png",
             session: "Free Practice 1 Countdown:",
         },
-    }
+    },
 }
