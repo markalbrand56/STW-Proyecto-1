@@ -1,8 +1,9 @@
 import React from "react"
+import Logo from "../../assets/f1_Academy.svg"
 import styles from "./Navigation.module.css"
 
 const navText = {
-    logo: "src/assets/f1_Academy.svg",
+    logo: Logo,
     latestNews: "LATEST NEWS",
     teams: "TEAMS & DRIVERS",
     standings: "STANDINGS",

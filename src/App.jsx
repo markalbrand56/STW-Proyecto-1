@@ -8,34 +8,40 @@ import RoundDetails from "./components/RoundDetails/RoundDetails"
 import Cards from "./components/Cards/Cards"
 import Footer from "./components/Footer/Footer"
 
+import MainNewsImg from "./assets/NewsMainImg.webp"
+import NewsImg1 from "./assets/NewsImg1.webp"
+import NewsImg2 from "./assets/NewsImg2.webp"
+import NewsImg3 from "./assets/NewsImg3.webp"
+import AustriaFlag from "./assets/Flag_of_Austria.svg.png"
+
 function App() {
     const calendar = {
         round: "Round 1",
         dates: "27-28 April",
         year: "2023",
         location: "Spielberg, Austria",
-        flag: "src/assets/Flag_of_Austria.svg.png",
+        flag: AustriaFlag,
         session: "Free Practice 1 Countdown:",
     }
 
     const news = {
         main: {
-            img: "src/assets/NewsMainImg.webp",
+            img: MainNewsImg,
             category: "INTERVIEW",
             title: "Inaugural Round of F1 Academy Kicks Off at the Red Bull Ring",
         },
         secondary1: {
-            img: "src/assets/NewsImg1.webp",
+            img: NewsImg1,
             category: "INTERVIEW",
             title: "Pre-season Testing Concludes With Final Day at the Red Bull Ring",
         },
         secondary2: {
-            img: "src/assets/NewsImg2.webp",
+            img: NewsImg2,
             category: "INTERVIEW",
             title: "Day 2 of Pre-Season testing completed at Circuit Paul Ricard",
         },
         secondary3: {
-            img: "src/assets/NewsImg3.webp",
+            img: NewsImg3,
             category: "INTERVIEW",
             title: "Day 1 of testing completed in Le Castellet",
         },
