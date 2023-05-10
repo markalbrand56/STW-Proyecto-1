@@ -1,6 +1,53 @@
 import React from "react"
+import { useEffect } from "react"
 import PropTypes from "prop-types"
 import styles from "./Calendar.module.css"
+
+function CountDown() {
+    const [days, setDays] = React.useState(0)
+    const [hours, setHours] = React.useState(0)
+    const [minutes, setMinutes] = React.useState(0)
+    const [seconds, setSeconds] = React.useState(0)
+
+    useEffect(() => {
+        const interval = setInterval(() => {
+            const now = new Date().getTime()
+            const countDownDate = new Date("May 31, 2023 23:55:00").getTime()
+            const distance = countDownDate - now
+
+            setDays(Math.floor(distance / (1000 * 60 * 60 * 24)))
+            setHours(
+                Math.floor(
+                    (distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)
+                )
+            )
+            setMinutes(Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60)))
+            setSeconds(Math.floor((distance % (1000 * 60)) / 1000))
+        }, 1000)
+        return () => clearInterval(interval)
+    }, [])
+
+    return (
+        <div className={styles.Countdown}>
+            <div className={styles.CountdownDetail}>
+                <span className={styles.CountdownTitle}>DAYS</span>
+                <span className={styles.CountdownTime}>{days}</span>
+            </div>
+            <div className={styles.CountdownDetail}>
+                <span className={styles.CountdownTitle}>HOURS</span>
+                <span className={styles.CountdownTime}>{hours}</span>
+            </div>
+            <div className={styles.CountdownDetail}>
+                <span className={styles.CountdownTitle}>MINUTES</span>
+                <span className={styles.CountdownTime}>{minutes}</span>
+            </div>
+            <div className={styles.CountdownDetail}>
+                <span className={styles.CountdownTitleSeconds}>SECONDS</span>
+                <span className={styles.CountdownTimeSeconds}>{seconds}</span>
+            </div>
+        </div>
+    )
+}
 
 function Calendar({ calendar }) {
     return (
@@ -15,33 +62,14 @@ function Calendar({ calendar }) {
                     <h1>{calendar.session}</h1>
                 </div>
                 <div className={styles.Location}>
-                    <img src={calendar.flag} alt="Country Flag" />
+                    <img src={calendar.flag} alt="Country Flag"/>
                     <h1>
                         {calendar.location}
                         <i>{" >>>"}</i>
                     </h1>
                 </div>
             </div>
-            <div className={styles.Countdown}>
-                <div className={styles.CountdownDetail}>
-                    <span className={styles.CountdownTitle}>DAYS</span>
-                    <span className={styles.CountdownTime}>00</span>
-                </div>
-                <div className={styles.CountdownDetail}>
-                    <span className={styles.CountdownTitle}>HOURS</span>
-                    <span className={styles.CountdownTime}>00</span>
-                </div>
-                <div className={styles.CountdownDetail}>
-                    <span className={styles.CountdownTitle}>MINUTES</span>
-                    <span className={styles.CountdownTime}>00</span>
-                </div>
-                <div className={styles.CountdownDetail}>
-                    <span className={styles.CountdownTitleSeconds}>
-                        SECONDS
-                    </span>
-                    <span className={styles.CountdownTimeSeconds}>00</span>
-                </div>
-            </div>
+            <CountDown/>
         </div>
     )
 }
