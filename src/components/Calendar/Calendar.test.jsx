@@ -1,7 +1,7 @@
 import React from "react"
-import Calendar from "./Calendar"
 import { render, screen } from "@testing-library/react"
-
+import { describe, expect, it } from "vitest"
+import Calendar from "./Calendar"
 
 const calendar = {
     round: "Round 1",
@@ -25,6 +25,8 @@ describe("Calendar tests", () => {
         expect(screen.getByText("27-28 April")).toBeInTheDocument()
         expect(screen.getByText("2023")).toBeInTheDocument()
         expect(screen.getByText("Spielberg, Austria")).toBeInTheDocument()
-        expect(screen.getByText("Free Practice 1 Countdown:")).toBeInTheDocument()
+        expect(
+            screen.getByText("Free Practice 1 Countdown:")
+        ).toBeInTheDocument()
     })
 })
