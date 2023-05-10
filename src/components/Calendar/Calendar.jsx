@@ -1,5 +1,4 @@
-import React from "react"
-import { useEffect } from "react"
+import React, { useEffect } from "react"
 import PropTypes from "prop-types"
 import styles from "./Calendar.module.css"
 
@@ -62,14 +61,14 @@ function Calendar({ calendar }) {
                     <h1>{calendar.session}</h1>
                 </div>
                 <div className={styles.Location}>
-                    <img src={calendar.flag} alt="Country Flag"/>
+                    <img src={calendar.flag} alt="Country Flag" />
                     <h1>
                         {calendar.location}
                         <i>{" >>>"}</i>
                     </h1>
                 </div>
             </div>
-            <CountDown/>
+            <CountDown />
         </div>
     )
 }
