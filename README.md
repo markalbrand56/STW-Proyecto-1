@@ -26,7 +26,7 @@
 - [ ]  (5 puntos) Por implementar loaders para imágenes SVG
 - [ ]  (5 puntos) Por implementar PostCSS
 - [ ]  (50 puntos) Por implementar Server Side Rendering en su aplicación (sin utilizar ninguna librería adicional)
-- [ ]  10 puntos) Por implementar al menos un test sobre su código usando vitest o jest
+- [x]  10 puntos) Por implementar al menos un test sobre su código usando vitest o jest
 - [x]  (10 puntos) Por implementar al menos un test visual sobre su código usando storybook
 
 ## Página a replicar
